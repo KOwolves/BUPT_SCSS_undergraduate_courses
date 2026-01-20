@@ -5,6 +5,6 @@
 
 课程相关代码：https://github.com/SmoothWater330/Courses
 
-有些资料没有上传，欢迎加我微信随时交流哈~
+涉及到个人信息的资料并没有上传，欢迎加我微信随时交流哈~
 
 微信号：SmoothWater330
