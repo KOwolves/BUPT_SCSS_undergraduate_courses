@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="description" content="考试成绩表">
+<title>考试成绩表</title>
+<style type="text/css">
+tbody tr:nth-child(2n+1) td {background-color: lightblue;}
+tbody tr:nth-child(2n) td {background-color: lightgrey;}
+</style>
+</head>
+<body>
+    <table border="1">
+    <caption style="font-size: 32px; font-weight=bold;">考试成绩表</caption>
+    <thead style="background-color: lightyellow;">
+        <tr>
+            <th>年级</th>
+            <th>学生</th>
+            <th>语文</th>
+            <th>数学</th>
+            <th>英语</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th rowspan="2" style="background-color: lightgreen;">三年一班</th>
+            <th>张三</th>
+            <td>92</td>
+            <td>93</td>
+            <td>99</td>
+        </tr>
+        <tr>
+            <th>李四</th>
+            <td>99</td>
+            <td>92</td>
+            <td>97</td>
+        </tr>
+        <tr>
+            <th rowspan="2" style="background-color: lightgreen;">三年二班</th>
+            <th>王五</th>
+            <td>99</td>
+            <td>91</td>
+            <td>89</td>
+        </tr>
+        <tr>
+            <th>赵六</th>
+            <td>90</td>
+            <td>82</td>
+            <td>77</td>
+        </tr>
+    </tbody>
+    </table>
+</body>
